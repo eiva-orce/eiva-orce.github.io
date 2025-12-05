@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #ffffff;
+  color: #111;
+  line-height: 1.7;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.tagline {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+section {
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Contact Page Styles */
+.contact-wrapper {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.contact-intro {
+  text-align: center;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #222;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #333;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.contact-form button:hover {
+  background: #333;
+}
