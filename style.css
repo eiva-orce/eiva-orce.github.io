@@ -257,7 +257,8 @@ footer {
     background: var(--neon-pink);
     color: #fff;
     cursor: pointer;
-    tr
+    transition: all 0.2s ease;
+}
     
 /* ABOUT PAGE — PROFILE PHOTO */
 .about-page-content {
