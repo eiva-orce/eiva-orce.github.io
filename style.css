@@ -258,3 +258,20 @@ footer {
     color: #fff;
     cursor: pointer;
     tr
+    
+/* ABOUT PAGE — PROFILE PHOTO */
+.about-page-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.profile-photo-container {
+    max-width: 180px !important;
+}
+
+.profile-photo {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 10px;
+}
